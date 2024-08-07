@@ -1,4 +1,4 @@
-package Main.list.OperacoesBasicas.desafio;
+package Main.list.OperacoesBasicas.exercicio;
 
 
 import java.util.ArrayList;
