@@ -26,6 +26,22 @@ public class CarrinhoDeCompras {
         carrinho.removeAll(itensParaRemover);
     }
 
+    /*
+    MAIS EFICIENTE - NAO FOI EU Q FIZ
+
+    public double calcularValorTotal() {
+    double valorTotal = 0d;
+    if (!itemList.isEmpty()) {
+        for (Item item : itemList) {
+            double valorItem = item.getPreco() * item.getQuant();
+            valorTotal += valorItem;
+        }
+        return valorTotal;
+    } else {
+        throw new RuntimeException("A lista está vazia!");
+    }
+}
+     */
     public void valorTotal() {
         if (!carrinho.isEmpty()) {
             List<Double> valores = new ArrayList<>();
